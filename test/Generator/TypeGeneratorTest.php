@@ -177,6 +177,9 @@ class TypeGeneratorTest extends \PHPUnit_Framework_TestCase
             ['\\bool'],
             ['\\Bool'],
             ['\\BOOL'],
+            ['\\void'],
+            ['\\Void'],
+            ['\\VOID'],
         ];
     }
 }
