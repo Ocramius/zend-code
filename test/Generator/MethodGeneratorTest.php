@@ -337,6 +337,7 @@ PHP;
     public function returnTypeHintClassesProvider()
     {
         return [
+            [ReturnTypeHintedClass::class, 'voidReturn', 'void'],
             [ReturnTypeHintedClass::class, 'arrayReturn', 'array'],
             [ReturnTypeHintedClass::class, 'callableReturn', 'callable'],
             [ReturnTypeHintedClass::class, 'intReturn', 'int'],
